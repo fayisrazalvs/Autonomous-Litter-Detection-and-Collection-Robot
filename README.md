@@ -12,6 +12,8 @@ I have used the TFLite model maker to create my custom model. I used a dataset o
 
 I have included my custom trained model in this repository and the dataset used to train the model can be downloaded from [here.](https://drive.google.com/file/d/1ONk1cNRsAAEzlYpNKVf8vgmIKi1J7sHS/view?usp=sharing "Training and Validation Dataset")
 
+Since the current model is only trained to detect plastic bottles the labelmap.txt file only contains "Plastic Bottle". In the future when the model is trained to detect other litter objects the labelmap.txt file can be updated to include the trained objects.
+
 ## CIRCUIT AND COMPONENTS
 
 ![Circuit Diagram Labeled](https://github.com/fayisrazalvs/Autonomous-Litter-Detection-and-Collection-Robot/assets/108331765/620f12d7-3632-4933-8be3-6aeb39d25642)
