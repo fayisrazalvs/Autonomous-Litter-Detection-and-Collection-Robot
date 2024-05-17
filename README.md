@@ -6,6 +6,12 @@ This project aims to develop an autonomous litter detection and collection robot
 
 It is a very ambitious project which requires complex algorithms, circuits and mechanical design to operate effectively. But for the time being, I have developed a simple design and system to execute the fundamental concept of this project for my final semester project. This project is my second project in robotics and at a significantly higher level than my previous one. This project will always be a work in progress until an outcome that satisfies me is achieved.
 
+## LITTER DETECTION MODEL
+
+I have used the TFLite model maker to create my custom model. I used a dataset of around 200 images and labled them for the model. The model maker colab notebook can be found [here.](https://colab.research.google.com/github/khanhlvg/tflite_raspberry_pi/blob/main/object_detection/Train_custom_model_tutorial.ipynb "TFLite colab Notebook")
+
+I have also included my custom model in this repositroy along with the images and .xml files I used to train the model.
+
 ## CIRCUIT AND COMPONENTS
 
 ![Circuit Diagram Labeled](https://github.com/fayisrazalvs/Autonomous-Litter-Detection-and-Collection-Robot/assets/108331765/620f12d7-3632-4933-8be3-6aeb39d25642)
